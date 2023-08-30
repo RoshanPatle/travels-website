@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="input.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body style="overflow-x: hidden">
+    <!----------------------------header section---------------------------->
+    <section
+      id="header"
+      style="background-image: url(images/hero-bg.jpg)"
+      class="relative p-8 md:p-16"
+    >
+      <!---------------------------nav--------------------->
+      <div class="flex justify-between text-center">
+        <img class="h-7" src="images/logo.svg" alt="" />
+        <div class="mr-8 md:hidden">
+          <i class="text-2xl fa-solid fa-bars"></i>
+        </div>
+        <div class="hidden mr-5 text-xl font-medium md:flex md:flex-row">
+          <ul class="mr-24 space-x-16 md:flex md:flex-row">
+            <li><a href="">Home</a></li>
+            <li><a href="">About </a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Pricing</a></li>
+          </ul>
+          <ul class="space-x-10 md:flex md:flex-row">
+            <li><a href="">Contact</a></li>
+            <li class="px-6 py-2 text-white bg-blue-700 rounded-full">
+              <a href="">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-----------------------------middle section of header-->
+      <div class="md:mt-32 md:flex">
+        <div class="md:mt-40 md:flex md:flex-col">
+          <div
+            class="flex justify-center p-2 ml-2 bg-red-200 rounded-full m-9 mr-28 md:self-start"
+          >
+            <p class="mr-3 text-xl text-red-500">Explore the World</p>
+            <img src="images/title-icon.svg" class="" alt="" />
+          </div>
+
+          <div>
+            <h1
+              class="mb-5 ml-3 text-4xl font-bold leading-tight md:text-7xl md:font-medium"
+            >
+              It's a Big World Out There , Go Explore
+            </h1>
+            <p class="mb-6 ml-2">
+              We always make our customer happy by providing as many choices as
+              possible
+            </p>
+
+            <button
+              class="px-6 py-2 ml-4 text-white bg-orange-400 rounded-full"
+            >
+              Plan a Trip
+              <i class="ml-3 text-xs fa-sharp fa-regular fa-greater-than"></i>
+            </button>
+          </div>
+        </div>
+        <!----------------last section of header-->
+        <div class="">
+          <img class="hidden md:flex" src="images/hero-banner.png " alt="" />
+          <div class="flex items-center mb-10 text-center md:hidden">
+            <img
+              class="h-16 mt-6 ml-4 rounded-full"
+              src="images/hero-button-img.jpg"
+              alt=""
+            />
+            <i
+              class="-ml-6 text-4xl mt-9 fa-sharp fa-regular fa-circle-play"
+            ></i>
+            <p class="ml-3 text-xl font-medium">Watch our Story</p>
+          </div>
+
+          <img class="md:hidden" src="images/hero-banner.png " alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-----------------------------------------what we serve--------------------------->
+    <section>
+      <div>
+        <p class="mt-2 ml-3 text-blue-600">WHAT WE SERVE</p>
+
+        <div class="p-4 mt-4 md:flex md:space-x-8 md:px-16">
+          <div class="mt-2">
+            <h1 class="w-3/4 text-5xl font-medium leading-normal">
+              Top Value for You
+            </h1>
+            <p class="mt-8 text-xl md:text-2xl">
+              Try a variety of benefits when using our services.
+            </p>
+          </div>
+
+          <div class="p-6 mt-8 text-gray-900 rounded-lg bg-yellow-50">
+            <img src="images/service-icon-1.svg" class="h-16" alt="" />
+            <h4 class="mt-3 text-2xl font-medium">Lot Of Choices</h4>
+            <p class="text-xl md:mt-4 md:text-2xl md:mb-4">
+              Total 460+ destination that we work with.
+            </p>
+          </div>
+
+          <div class="p-6 mt-8 text-gray-900 rounded-lg bg-pink-50">
+            <img src="images/service-icon-2.svg" class="h-16" alt="" />
+            <h4 class="mt-3 text-2xl font-medium">Best Tour Guide</h4>
+            <p class="text-xl md:text-2xl md:mt-4 md:mb-4">
+              Our tour guide with 15+ years of experience.
+            </p>
+          </div>
+
+          <div class="p-6 mt-8 text-gray-900 rounded-lg bg-purple-50">
+            <img src="images/service-icon-3.svg" class="h-16" alt="" />
+            <h4 class="mt-3 text-2xl font-medium">Easy Booking</h4>
+            <p class="text-xl md:text-2xl md:mt-4 md:mb-4">
+              With an easy and fast ticket purchase process.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------Top destination -->
+
+    <section>
+      <div>
+        <p class="ml-5 text-blue-600">TOP DESTINATION</p>
+        <h1 class="mt-4 ml-5 text-5xl font-medium leading-tight">
+          Explore Top Destination
+        </h1>
+
+        <div class="md:p-16 md:flex">
+          <div class="relative p-5">
+            <p
+              class="absolute px-6 py-3 text-2xl font-bold text-purple-600 bg-white rounded-full right-12 top-10"
+            >
+              $340
+            </p>
+            <img src="images/destination-1.jpg" class="rounded-3xl" alt="" />
+            <p
+              class="mr-8 text-2xl font-medium leading-tight cursor-pointer md:mt-6 md:text-3xl hover:text-purple-500"
+            >
+              Enjoy the Beauty of The del Pincio
+            </p>
+
+            <p class="">Remo , italy</p>
+
+            <div class="flex mt-4 space-x-3">
+              <p class="px-4 py-1 bg-yellow-100 rounded-full">
+                <i class="fa-regular fa-star"></i> 4.7
+              </p>
+              <p>(11.1k Review)</p>
+            </div>
+          </div>
+
+          <div class="relative p-5">
+            <p
+              class="absolute px-6 py-3 text-2xl font-bold text-purple-600 bg-white rounded-full right-12 top-10"
+            >
+              $340
+            </p>
+            <img src="images/destination-2.jpg" class="rounded-3xl" alt="" />
+            <p
+              class="mr-8 text-2xl font-medium leading-tight cursor-pointer md:mt-6 md:text-3xl hover:text-purple-500"
+            >
+              Enjoy the Beauty of The Pakistan Monument
+            </p>
+            <p class="">Islamabad , Pakistan</p>
+
+            <div class="flex mt-4 space-x-3">
+              <p class="px-4 py-1 bg-yellow-100 rounded-full">
+                <i class="fa-regular fa-star"></i> 4.6
+              </p>
+              <p>(16.9k Review)</p>
+            </div>
+          </div>
+
+          <div class="relative p-5">
+            <p
+              class="absolute px-6 py-3 text-2xl font-bold text-purple-600 bg-white rounded-full right-12 top-10"
+            >
+              $340
+            </p>
+            <img src="images/destination-3.jpg" class="rounded-3xl" alt="" />
+            <p
+              class="mr-8 text-2xl font-medium leading-tight cursor-pointer md:mt-6 md:text-3xl hover:text-purple-500"
+            >
+              Enjoy the Beauty of the Burj Khalifa
+            </p>
+            <p class="">Skyscraper in Dubai</p>
+
+            <div class="flex mt-4 space-x-3">
+              <p class="px-4 py-1 bg-yellow-100 rounded-full">
+                <i class="fa-regular fa-star"></i> 4.7
+              </p>
+              <p>(120k Review)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:px-16 md:flex">
+          <div class="relative p-5">
+            <p
+              class="absolute px-6 py-3 text-2xl font-bold text-purple-600 bg-white rounded-full right-12 top-10"
+            >
+              $340
+            </p>
+            <img src="images/destination-4.jpg" class="rounded-3xl" alt="" />
+            <p
+              class="mr-8 text-2xl font-medium leading-tight cursor-pointer md:mt-6 md:text-3xl hover:text-purple-500"
+            >
+              Enjoy the Beauty of the Milaidhoo
+            </p>
+            <p class="">Remo , italy</p>
+
+            <div class="flex mt-4 space-x-3">
+              <p class="px-4 py-1 bg-yellow-100 rounded-full">
+                <i class="fa-regular fa-star"></i> 5 .7
+              </p>
+              <p>(15.1k Review)</p>
+            </div>
+          </div>
+
+          <div class="relative p-5">
+            <p
+              class="absolute px-6 py-3 text-2xl font-bold text-purple-600 bg-white rounded-full right-12 top-10"
+            >
+              $340
+            </p>
+            <img src="images/destination-5.jpg" class="rounded-3xl" alt="" />
+            <p
+              class="mr-8 text-2xl font-medium leading-tight cursor-pointer md:mt-6 md:text-3xl hover:text-purple-500"
+            >
+              Enjoy the Beauty of The Ko Tao
+            </p>
+            <p class="">Island in the Gulf of Thailand</p>
+
+            <div class="flex mt-4 space-x-3">
+              <p class="px-4 py-1 bg-yellow-100 rounded-full">
+                <i class="fa-regular fa-star"></i> 4.9
+              </p>
+              <p>(19k Review)</p>
+            </div>
+          </div>
+
+          <div class="relative p-5">
+            <p
+              class="absolute px-6 py-3 text-2xl font-bold text-purple-600 bg-white rounded-full right-12 top-10"
+            >
+              $340
+            </p>
+            <img src="images/destination-6.jpg" class="rounded-3xl" alt="" />
+            <p
+              class="mr-8 text-2xl font-medium leading-tight cursor-pointer md:mt-6 md:text-3xl hover:text-purple-500"
+            >
+              Enjoy the Beauty of the Grand Mecidiye Mosque
+            </p>
+            <p class="">Mosque in Istanbul, turkiye</p>
+
+            <div class="flex mt-4 space-x-3">
+              <p class="px-4 py-1 bg-yellow-100 rounded-full">
+                <i class="fa-regular fa-star"></i> 4.6
+              </p>
+              <p>(123k Review)</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="inline-block py-2 mt-10 mb-6 ml-20 text-xl font-medium text-white align-middle bg-purple-600 rounded-full px-7 md:mx-96"
+        >
+          <p><a href="">View All Destination</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------our experience-------------------------------------------->
+
+    <section>
+      <div class="mt-10 md:flex md:p-16">
+        <div>
+          <p class="ml-5 text-xl font-medium text-purple-600">
+            Our experiences
+          </p>
+          <h1
+            class="mt-10 ml-5 text-5xl font-medium leading-tight text-gray-900"
+          >
+            With Our Experience We will serve you
+          </h1>
+          <p class="w-2/3 mt-8 ml-5 mr-4 text-gray-900 md:text-2xl">
+            Since we first opened we have always prioritized the convennience of
+            our users by providing low prices and with a easy process.
+          </p>
+          <div class="mt-6 ml-5 space-y-6">
+            <ul class="flex space-x-2">
+              <li class="text-2xl font-bold text-purple-600">20</li>
+              <li class="text-xl">Years Experience</li>
+            </ul>
+
+            <ul class="flex space-x-2">
+              <li class="text-2xl font-bold text-purple-600">460+</li>
+              <li>Destination Collaboration</li>
+            </ul>
+
+            <ul class="flex space-x-2">
+              <li class="text-2xl font-bold text-purple-600">50k+</li>
+              <li>Happy Customer</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="relative">
+          <img
+            src="images/exp-shape.svg"
+            class="absolute h-36 top-44 md:top-72"
+          />
+          <img
+            src="images/experience-banner.png"
+            alt=""
+            class="md:h-[36rem] md:max-w-lg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------Photos Gallery------------->
+    <!-------------------------------------
+<section class="relative p-6 mt-9 lg::p-16">
+<div>
+<p class="text-purple-600 ">PHOTO GALLERY</p>
+<h3 class="mt-4 text-5xl font-medium leading-relaxed text-gray-900">Photo's From Travelers</h3>
+<div class="md:flex md:space-x-4">
+<div class="mt-8">
+    <img src="images/gallery-1.jpg" alt="" class="rounded-3xl lg:h-44">
+</div>
+<div class="mt-8">
+    <img src="images/gallery-2.jpg" alt="" class="rounded-3xl lg:h-44">
+</div>
+<div class="mt-8 lg:ml-64">
+    <img src="images/gallery-3.jpg" alt="" class="lg:justify-center lg:absolute rounded-3xl lg:h-[30rem] text-center self-center">
+</div>
+<div class="mt-8">
+    <img src="images/gallery-4.jpg" alt="" class="rounded-3xl lg:h-44 lg:absolute lg:right-12">
+</div>
+<div class="mt-8">
+    <img src="images/gallery-5.jpg" alt="" class="rounded-3xl lg:left-4 lg:top-96 lg:absolute lg:h-44">
+</div>
+
+<div class="mt-8">
+    <img src="images/gallery-6.jpg" alt="" class="rounded-3xl lg:absolute lg:top-96 lg:h-44 lg:right-12">
+</div>
+
+    </div>
+</div>
+
+
+
+
+
+    
+</section>
+
+
+------------->
+
+    <section class="p-12 mt-20">
+      <div class="p-10 bg-pink-100 rounded-3xl">
+        <h1 class="w-full text-3xl font-medium leading-tight text-gray-900">
+          Prepare Yourself & Let's Explore The Beauty of The
+          <span class="flex"
+            >World <img src="images/title-icon.svg" alt="" class="h-16 ml-2"
+          /></span>
+        </h1>
+
+        <p class="mb-8 text-gray-900">
+          We have many special offers especially for you
+        </p>
+
+        <b
+          class="px-3 py-2 mt-8 text-xl font-medium text-white bg-purple-500 rounded-full"
+          ><a href=""> Get Started</a></b
+        >
+      </div>
+    </section>
+
+    <footer>
+      <div class="p-8 space-y-8 md:flex md:space-x-12 md:p-16">
+        <div class="md:w-80">
+          <img class="h-10" src="images/logo.svg" alt="" />
+          <p class="mt-6">
+            We always make our customer happy by providing as many choices as
+            possible
+          </p>
+          <div class="mt-4 space-x-6 text-4xl text-purple-500">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+        </div>
+
+        <div>
+          <h1 class="mb-3 text-xl font-medium">About</h1>
+          <ul class="md:space-y-3">
+            <li>About Us</li>
+            <li>Features</li>
+            <li>News</li>
+            <li>Menu</li>
+          </ul>
+        </div>
+
+        <div>
+          <h1 class="mb-3 text-xl font-medium">Company</h1>
+          <ul class="md:space-y-3">
+            <li>why Company</li>
+            <li>Partner Withh Us</li>
+            <li>FAQ</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+
+        <div>
+          <h1 class="mb-3 text-xl font-medium">Support</h1>
+          <ul class="md:space-y-3">
+            <li>Account</li>
+            <li>Support</li>
+            <li>Feedback</li>
+            <li>Accessibility</li>
+          </ul>
+        </div>
+
+        <div>
+          <h1 class="mb-3 text-xl font-medium">Get in Thouch</h1>
+          <p>Question or Feedback? We'd love to hear from you.</p>
+
+          <input
+            type="email"
+            placeholder="Email Address"
+            class="w-full px-3 py-2 mt-4 border-2 border-gray-300 rounded-lg"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
